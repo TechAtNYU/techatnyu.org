@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Sans');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /*font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,*/
+  /*  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;*/
+  font-family: DM Sans;
 }
 
 a {
@@ -13,4 +16,9 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+button:hover {
+  background-color: #C9D1DE; /* Green */
+  color: #0070f3;
 }
