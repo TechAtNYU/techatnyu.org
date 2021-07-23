@@ -2,6 +2,7 @@ import React from "react";
 import {Col, Container} from "react-bootstrap";
 import GeneralButton from "../GeneralButton";
 import RotatingEventCircle from "./EventCircle";
+import ImageGallery from "./ImageGallery";
 
 const EventsCarousel = () => {
 
@@ -9,7 +10,7 @@ const EventsCarousel = () => {
         style = {{
             backgroundColor: "#111111",
             color:"white",
-            height: "661px",
+            height: "auto",
             display: "inline-block",
             width: "100%",
             textAlign: "center",
@@ -22,6 +23,7 @@ const EventsCarousel = () => {
 
         <Col>
             <RotatingEventCircle/>
+            <ImageGallery/>
             <div>General Events bi-weekly!</div>
             <GeneralButton name={"Find an Event"}/>
         </Col>
