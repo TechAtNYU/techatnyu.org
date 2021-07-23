@@ -2,7 +2,12 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import React from "react";
-import Footer from "../components/Footer";
+import Footer from "../components/Footer/Footer";
+import GeneralButton from "../components/GeneralButton";
+import EventsCarousel from "../components/EventsCarousel/EventsCarousel";
+import CohortCard from "../components/Cohort/CohortCard";
+
+
 
 export default function Home() {
   return (
@@ -22,6 +27,7 @@ export default function Home() {
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
         </p>
+        <GeneralButton name={"hello"}/>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
@@ -53,7 +59,8 @@ export default function Home() {
           </a>
         </div>
       </main>
-
+      <CohortCard/>
+      <EventsCarousel/>
       <Footer/>
     </div>
   )
