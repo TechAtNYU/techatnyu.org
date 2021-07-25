@@ -3,7 +3,7 @@ import styles from "./EventCircle.module.scss";
 
 
 const RotatingEventCircle = () =>{
-    return <div>
+    return <div >
         <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="-100 -100 3000 600"  className={".svg-textPath"}>
             <defs>
                 <path d="M50 250c0-110.5 89.5-200 200-200s200 89.5 200 200s-89.5 200-200 200S50 360.5 50 250" id="textcircle">
