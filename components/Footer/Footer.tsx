@@ -1,7 +1,6 @@
 import React from 'react';
-import styles from "./Footer.module.css";
 import {Col, Row} from "react-bootstrap";
-
+import styles from "./Footer.module.scss";
 
 const Footer = () =>{
     return (
@@ -18,10 +17,10 @@ const Footer = () =>{
                 <div className={styles.footerSocialContent}>
                    <div>Follow Us</div>
                     <Row>
-                        <img src="/instagram.svg" alt="instagram logo"/>
-                        <img src="/facebook.svg"alt="facebook logo"  />
-                        <img src="/twitter.svg" alt="twitter logo" />
-                        <img src="/youtube.svg" alt="youtube logo" />
+                        <img src="../assets/instagram.svg" alt="instagram logo"/>
+                        <img src="../assets/facebook.svg"alt="facebook logo"  />
+                        <img src="../assets/twitter.svg" alt="twitter logo" />
+                        <img src="../assets/youtube.svg" alt="youtube logo" />
                     </Row>
                 </div>
             </div>

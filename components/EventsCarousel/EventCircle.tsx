@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./EventCircle.module.css";
+import styles from "./EventCircle.module.scss";
 
 
 const RotatingEventCircle = () =>{
