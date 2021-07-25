@@ -1,10 +1,14 @@
+$offwhite: #F9F9F7;
+$light-black: #17161C;
+
 html, body {
   padding: 0;
   margin: 0;
 }
 
 body {
-  background-color: #17161C!important;
+  background-color: $light-black!important;
+  color: $offwhite!important;
 }
 
 a {

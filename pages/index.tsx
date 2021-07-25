@@ -7,6 +7,8 @@ import CohortCard from "../components/Cohort/CohortCard";
 
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import NavBar from "../components/NavBar";
+import About from "../components/About";
+import OutlineButton from "../components/OutlineButton";
 
 export default function Home() {
   return (
@@ -27,20 +29,28 @@ export default function Home() {
 
         <NavBar/>
 
-        <div id="#about">
+        <div id="header" className="container">
+          <div className="tagline">
+            <p>Tech@NYU is a space for artists, makers and hackers to build stuff together, learn new skills, and explore opportunities in tech. </p>
+          </div>
+          <OutlineButton title="Join the Club" href="#"/>
+        </div>
 
+        <div id="about" className="container">
+          <h1 className="heading">About</h1>
+          <About/>
         </div>
 
 
-        <div id="#events">
+        <div id="events">
 
         </div>
       <CohortCard/>
       <EventsCarousel/>
       <Footer/>
-        <div id="#contact">
+        <div id="contact">
 
-      </div>
+        </div>
 
     </div>
   )
