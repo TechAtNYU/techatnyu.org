@@ -92,13 +92,16 @@ $bootstrap-inward: 768px;
 
 .heading {
     font-size: 25px;
-    letter-spacing: 1px;
+    padding-top: 15px;
     padding-bottom: 15px;
     font-weight: 100;
+    letter-spacing: 1px;
 }
 
 #about {
-    padding: 70px 12px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding: 0px 12px;
 
     .row {
         @media (max-width:$bootstrap-collapse) {

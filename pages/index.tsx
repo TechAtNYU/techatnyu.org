@@ -40,16 +40,15 @@ export default function Home() {
           <h1 className="heading">About</h1>
           <About/>
         </div>
-
+        <div id="cohort">
+          <CohortCard/>
+        </div>
 
         <div id="events">
-
+          <EventsCarousel/>
         </div>
-      <CohortCard/>
-      <EventsCarousel/>
-      <Footer/>
         <div id="contact">
-
+          <Footer/>
         </div>
 
     </div>
