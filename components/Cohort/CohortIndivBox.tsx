@@ -1,6 +1,8 @@
 import React, {FunctionComponent} from "react";
 import {Container, Col} from "react-bootstrap";
 import GeneralButton from "../GeneralButton";
+import {Property} from "csstype";
+type FontWeight = Property.FontWeight;
 
 const style = {
 
@@ -8,8 +10,11 @@ const style = {
     boxShadow: "7px 4px 20px #C9D1DE",
     borderRadius: "8px",
     color:"#C9D1DE",
-    width: "30%",
-    padding: "25px"
+    width: "417px",
+    height: "394px",
+    padding: "25px",
+    marginTop: "30px",
+    marginLeft: "15px",
 
 } as React.CSSProperties
 
@@ -20,11 +25,11 @@ const CohortIndivBox: FunctionComponent<{
     iconAlt: string
 }> = props =>{
     return(<div style = {style} >
-        <Col>
-            <img src={props.iconSrc} alt={props.iconAlt}/>
-            <div>{props.title}</div>
-            <div>{props.description}</div>
-            <GeneralButton name={"Read more"}/>
+        <Col sm>
+            <img src={props.iconSrc} alt={props.iconAlt} height={25}/>
+            <div style={{fontSize:"18px", fontWeight:"500" as FontWeight, marginTop :"15px"}}>{props.title}</div>
+            <div style={{fontSize:"18px", marginTop :"25px", marginBottom:"25px", height: "100px"}}>{props.description}</div>
+            <GeneralButton name={"Read more"} />
         </Col>
     </div>);
 }
