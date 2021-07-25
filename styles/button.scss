@@ -1,0 +1,26 @@
+.outline-button {
+    button {
+        background-color: #fff;
+        height: 60px;
+        width: 320px;
+        border-radius:12px;
+        font-size:30px;
+        border: 1px solid #000;
+        cursor: pointer;
+        position: relative;
+    }
+
+    span {
+        display:block;
+        height: 55px;
+        width: 310px;
+        position: absolute;
+        top: 16px;
+        left: 20px;
+        z-index: -1;
+        border-radius: 12px;
+        border:2px solid #fff;
+    }
+
+}
+
