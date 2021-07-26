@@ -28,11 +28,10 @@ const Footer = () =>{
                     marginLeft: "auto",
                     marginRight:"auto",
                 }}>
-
-                    <SocialMediaIcon src={"../assets/instagram.svg"} altText={"instagram logo"}/>
-                    <SocialMediaIcon src={"../assets/facebook.svg"}  altText={"facebook logo"}/>
-                    <SocialMediaIcon src={"../assets/twitter.svg"}   altText={"twitter logo"}/>
-                    <SocialMediaIcon src={"../assets/youtube.svg"}   altText={"youtube logo"}/>
+                    <SocialMediaIcon src={"../assets/instagram.svg"} altText={"instagram logo"} link={"https://www.instagram.com/techatnyu/"}/>
+                    <SocialMediaIcon src={"../assets/facebook.svg"}  altText={"facebook logo"} link={"https://www.facebook.com/TechatNYU/"} />
+                    <SocialMediaIcon src={"../assets/twitter.svg"}   altText={"twitter logo"} link={"https://twitter.com/techatnyu?lang=en"}  />
+                    <SocialMediaIcon src={"../assets/youtube.svg"}   altText={"youtube logo"}  link={"https://www.youtube.com/channel/UCfnrLW1YMab6CDElGKw2aGQ"} />
                 </Row>
             </Col>
             <Col sm>
