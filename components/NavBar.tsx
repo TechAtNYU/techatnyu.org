@@ -21,7 +21,7 @@ const NavBar = () => {
             <Nav.Link href="/#about">About</Nav.Link>
             <Nav.Link href="/team">Our Team</Nav.Link>
             <NavDropdown title="Programs" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#">Mentorship</NavDropdown.Item>
+                <NavDropdown.Item href="/mentorship">Mentorship</NavDropdown.Item>
                 <NavDropdown.Item href="#">Tech Treks</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="#events">Events</Nav.Link>
