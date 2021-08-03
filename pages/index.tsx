@@ -1,12 +1,8 @@
-import Head from 'next/head';
 import React from "react";
-import Footer from "../components/Footer/Footer";
-import GeneralButton from "../components/GeneralButton";
 import EventsCarousel from "../components/EventsCarousel/EventsCarousel";
 import CohortCard from "../components/Cohort/CohortCard";
 
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import NavBar from "../components/NavBar";
 import About from "../components/About";
 import OutlineButton from "../components/OutlineButton";
 

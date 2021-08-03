@@ -1,6 +1,7 @@
 import '../styles/globals.scss'
 import '../styles/index.scss'
 import '../styles/button.scss'
+import '../styles/techtreks.scss'
 
 import type { AppProps } from 'next/app'
 import Head from "next/head";
@@ -28,7 +29,9 @@ function MyApp({ Component, pageProps }: AppProps) {
     </div>
     <NavBar/>
     <Component {...pageProps} />
-    <Footer/>
+    <div id="contact">
+      <Footer/>
+    </div>
     </body>
 
   </>);

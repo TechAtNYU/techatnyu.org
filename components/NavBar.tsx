@@ -22,10 +22,10 @@ const NavBar = () => {
             <Nav.Link href="/team">Our Team</Nav.Link>
             <NavDropdown title="Programs" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/mentorship">Mentorship</NavDropdown.Item>
-                <NavDropdown.Item href="#">Tech Treks</NavDropdown.Item>
+                <NavDropdown.Item href="/techtreks">Tech Treks</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="https://www.facebook.com/TechatNYU/events/">Events</Nav.Link>
-            <Nav.Link href="/contactus">Contact Us</Nav.Link>
+            <Nav.Link href="/#events">Events</Nav.Link>
+            <Nav.Link href="#contact">Contact Us</Nav.Link>
         </Nav>
         </Navbar.Collapse>
     </Container>
