@@ -17,16 +17,22 @@ const EventsCarousel = () => {
             alignContent: "center",
             paddingTop: "25px",
             paddingBottom: "30px",
-            paddingLeft: "30px",
+            // paddingLeft: "30px",
+            // paddingRight: "30px",
             height: "700px"
         }}
     >
 
         <Col>
-            <div style={{zIndex:3}}><RotatingEventCircle /></div>
-            <div style={{marginTop:"-100px", marginBottom:"50px", zIndex:0}}
-            ><ImageGallery /></div>
-            <div style={{fontSize:"30px", marginBottom:"30px"}}>General Events bi-weekly!</div>
+            <Container style={{zIndex:2, position: "relative"}}>
+                <RotatingEventCircle />
+            </Container>
+            <Container style={{marginTop:"-100px", marginBottom:"50px", zIndex:1}}>
+                <ImageGallery />
+            </Container>
+            <div style={{fontSize:"30px", marginBottom:"30px"}}>
+                General Events bi-weekly!
+            </div>
             <GeneralButton name={"Find an Event"}/>
         </Col>
     </Container>

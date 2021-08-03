@@ -1,6 +1,7 @@
 import React  from "react";
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
+import {Container} from "react-bootstrap";
 
 const style = {
     pointerEvents: "none"
@@ -23,8 +24,11 @@ const responsive =    {
 
 const ImageGallery = ()=>{
     return (
-        <div style={{
+        <Container style={{
             width:"90%",
+            textAlign:"start",
+            marginLeft: "10%",
+
         }}>
             <AliceCarousel
                 responsive={responsive}
@@ -33,11 +37,11 @@ const ImageGallery = ()=>{
                 infinite
                 disableButtonsControls
                 disableDotsControls
-                paddingLeft  ={15}
-                paddingRight ={15}
+                paddingLeft  ={20}
+                paddingRight ={20}
 
                 items={items} />
-        </div>
+        </Container>
     );
 }
 
