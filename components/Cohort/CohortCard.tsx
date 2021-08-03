@@ -43,12 +43,16 @@ const CohortCard = () =>{
                         title={"Mentorship"}
                         description={"a chance to work with tech@nyu\n alumni and receive guidance from\n industry professionals"}
                         iconSrc={"/assets/Mentorship.svg"}
-                        iconAlt={"mentorship icon"}/>
+                        iconAlt={"mentorship icon"}
+                        btnHref={"/mentorship"}
+                    />
                     <CohortIndivBox
                         title={"Tech Treks"}
                         description={"a tight-knit cohort for students\n unfamiliar with the tech industry. "}
                         iconSrc={"/assets/Techtreks.svg"}
-                        iconAlt={"Techtreks icon"}/>
+                        iconAlt={"Techtreks icon"}
+                        btnHref={"/mentorship"}
+                    />
                 </Row>
             </Container>
         </Col>

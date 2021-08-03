@@ -11,9 +11,10 @@ const style = {
 
 } as React.CSSProperties;
 
-const GeneralButton: FunctionComponent<{name: string}> = props  => {
+const GeneralButton: FunctionComponent<{name: string, href?: string}> = props  => {
     return <Button
             style={style}
+            href ={props.href}
             >{props.name}
     </Button>
 }

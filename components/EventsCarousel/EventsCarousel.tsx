@@ -33,7 +33,7 @@ const EventsCarousel = () => {
             <div style={{fontSize:"30px", marginBottom:"30px"}}>
                 General Events bi-weekly!
             </div>
-            <GeneralButton name={"Find an Event"}/>
+            <GeneralButton name={"Find an Event"} href={"https://www.facebook.com/TechatNYU/events/"}/>
         </Col>
     </Container>
 }
