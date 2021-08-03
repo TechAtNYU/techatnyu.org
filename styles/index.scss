@@ -140,6 +140,7 @@ $bootstrap-inward: 768px;
 }
 
 #events {
-    text-align: center;
+    .main_carousel {
+        margin-top: -100px;
+    }
 }
-

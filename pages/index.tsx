@@ -1,5 +1,8 @@
 import React from "react";
 import EventsCarousel from "../components/EventsCarousel/EventsCarousel";
+import GeneralButton from "../components/GeneralButton";
+import RotatingEventCircle from "../components/EventsCircle/EventCircle";
+
 import CohortCard from "../components/Cohort/CohortCard";
 
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
@@ -9,8 +12,6 @@ import OutlineButton from "../components/OutlineButton";
 export default function Home() {
   return (
     <div>
-
-
 
         <div id="header" className="container">
           <div className="tagline">
@@ -23,14 +24,20 @@ export default function Home() {
           <h1 className="heading">About</h1>
           <About/>
         </div>
-        <div id="cohort">
+        <div id="cohort" className="container">
           <CohortCard/>
         </div>
 
-        <div id="events">
-          <EventsCarousel/>
+        <div id="events" className="container">
+          <div style={{zIndex:1,position:"relative"}}><RotatingEventCircle /></div>
+          <div className="main_carousel">
+            <EventsCarousel/>
+          </div>
+          <div className="center">
+            <div style={{fontSize:"30px", marginBottom:"30px"}}>General Events bi-weekly!</div>
+            <GeneralButton name={"Find an Event"} href={"https://www.facebook.com/TechatNYU/events/"}/>
+          </div>
         </div>
-
 
     </div>
   )
