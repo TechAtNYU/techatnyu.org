@@ -1,6 +1,8 @@
 $bootstrap-collapse: 991px;
 $bootstrap-inward: 768px;
 
+$offwhite: #F9F9F7;
+
 .techtreks {
     &__header {
         img, p {
@@ -31,5 +33,18 @@ $bootstrap-inward: 768px;
             } 
         }
 
+    }
+
+    &__companies {
+        h2 {
+            color: #000;
+        }
+
+        .container {
+            padding-top: 20px;
+            margin-bottom: 5px;
+        }
+
+        background-color: $offwhite;
     }
 }

@@ -8,7 +8,7 @@ export default function techtreks() {
     return (
         <div className="techtreks">
             <div className="container techtreks__header">
-                <img src = "../assets/tech-treks.png"/>
+                <img src = "../assets/headings/tech-treks.png"/>
                 <p>
                     Initially created to expose freshmen to the Tech industry, we realized there were Sophmores and Juniors just as new to the industry. 
                     We have recently opened up Tech Treks to anyone who is a beginner to code or curious about the tech industry, but not necessarily a STEM major.
@@ -40,8 +40,10 @@ export default function techtreks() {
             <div className="container techtreks__carousel">
                 <EventsCarousel/>
             </div>
-            <div className="container techtreks__companies">
-                
+            <div className="techtreks__companies">
+                <div className="container">
+                    <h2>Places we've visited:</h2>
+                </div>
             </div>
         </div>
     )

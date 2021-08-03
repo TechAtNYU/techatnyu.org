@@ -50,7 +50,7 @@ export default function Mentorship() {
     return (
         <div style ={mentorShipPageStyle} >
             <Col>
-                <img src={"../assets/wateringplant.svg"} alt={"mentorship logo"} style={mentorshipLogoStyle}/>
+                <img src={"../assets/headings/wateringplant.svg"} alt={"mentorship logo"} style={mentorshipLogoStyle}/>
               <div style={headerStyle}>
                   Mentorship
               </div>

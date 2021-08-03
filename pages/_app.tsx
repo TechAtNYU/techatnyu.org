@@ -24,7 +24,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <body>
     <div className="logo center">
       <a href="/">
-        <img src = "../assets/logo-3x.png"/>
+        <img src = "../assets/logo.png"/>
       </a>
     </div>
     <NavBar/>

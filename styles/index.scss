@@ -53,7 +53,7 @@ $bootstrap-inward: 768px;
     }
 
     .navbar-toggler-icon {
-        background-image: url("../public/assets/menu-icon.png")!important;
+        background-image: url("../public/assets/index-icons/menu-icon.png")!important;
     }
 
     .dropdown-item.active, .dropdown-item:active {
@@ -142,5 +142,8 @@ $bootstrap-inward: 768px;
 #events {
     .main_carousel {
         margin-top: -100px;
+    }
+    .find_events {
+        margin-bottom: 50px;
     }
 }

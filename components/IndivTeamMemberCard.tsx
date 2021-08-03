@@ -57,9 +57,9 @@ const IndivTeamMemberCard: FunctionComponent<{
             marginRight:"auto",
             marginBottom: "72px",
         }}>
-            <SocialMediaIcon altText={props.name + " LinkedIn"} src={"../assets/Linkedin.svg"} link={props.linkedin}/>
-            <SocialMediaIcon altText={props.name + " Github"} src={"../assets/Github.svg"} link={props.github}/>
-            <SocialMediaIcon altText={props.name + " Personal Site"} src={"../assets/Globe.svg"} link={props.website}/>
+            <SocialMediaIcon altText={props.name + " LinkedIn"} src={"../assets/socials/Linkedin.svg"} link={props.linkedin}/>
+            <SocialMediaIcon altText={props.name + " Github"} src={"../assets/socials/Github.svg"} link={props.github}/>
+            <SocialMediaIcon altText={props.name + " Personal Site"} src={"../assets/socials/Globe.svg"} link={props.website}/>
         </Row>
     </Col>)
 }

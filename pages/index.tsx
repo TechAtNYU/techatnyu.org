@@ -33,7 +33,7 @@ export default function Home() {
           <div className="main_carousel">
             <EventsCarousel/>
           </div>
-          <div className="center">
+          <div className="center find_events">
             <div style={{fontSize:"30px", marginBottom:"30px"}}>General Events bi-weekly!</div>
             <GeneralButton name={"Find an Event"} href={"https://www.facebook.com/TechatNYU/events/"}/>
           </div>
