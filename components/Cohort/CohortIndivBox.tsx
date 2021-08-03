@@ -10,11 +10,13 @@ const style = {
     boxShadow: "7px 4px 20px #C9D1DE",
     borderRadius: "8px",
     color:"#C9D1DE",
-    width: "417px",
+    width: "45%",
     height: "394px",
     padding: "25px",
     marginTop: "30px",
-    marginLeft: "15px",
+    textAlign:"start",
+    marginLeft: "auto",
+    marginRight:"auto",
 
 } as React.CSSProperties
 

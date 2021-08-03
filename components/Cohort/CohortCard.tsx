@@ -1,6 +1,7 @@
 import React from "react";
-import {Col,Row} from "react-bootstrap";
+import {Col, Container, Row} from "react-bootstrap";
 import CohortIndivBox from "./CohortIndivBox";
+
 
 const style  = {
     width:"100%",
@@ -22,7 +23,9 @@ const style  = {
 
 const CohortCard = () =>{
     return ( <Col style ={style}>
-            <div style ={{ marginLeft: "0 auto", marginRight: "0 auto", textAlign:"start"}}>
+
+            <Container style={{textAlign:"start", width:"2000px"}}>
+
                 <div >
                     Join a Cohort
                 </div>
@@ -34,6 +37,7 @@ const CohortCard = () =>{
                         and meet professionals in the industry.
                     </div>
                 </div>
+
                 <Row >
                     <CohortIndivBox
                         title={"Mentorship"}
@@ -45,13 +49,8 @@ const CohortCard = () =>{
                         description={"a tight-knit cohort for students\n unfamiliar with the tech industry. "}
                         iconSrc={"/assets/Techtreks.svg"}
                         iconAlt={"Techtreks icon"}/>
-                    <CohortIndivBox
-                        title={"Tech Undivided"}
-                        description={"a space to empower minorities in\n tech and expose them to\n opportunities within the industry"}
-                        iconSrc={"/assets/TechUndivided.svg"}
-                        iconAlt={"Tech Undivided icon"}/>
                 </Row>
-            </div>
+            </Container>
         </Col>
 
 
