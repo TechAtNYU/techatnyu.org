@@ -3,10 +3,9 @@ import {Col, Row} from "react-bootstrap";
 import SocialMediaIcon from "./SocialMediaIcon";
 
 const style ={
-    backgroundColor : "white",
+    backgroundColor : "#F9F9F7",
     color : "black",
     textAlign: "center",
-    marginTop: "50px",
     paddingTop: "50px",
     paddingBottom: "50px",
     fontSize: "18px"
@@ -28,10 +27,10 @@ const Footer = () =>{
                     marginLeft: "auto",
                     marginRight:"auto",
                 }}>
-                    <SocialMediaIcon src={"../assets/instagram.svg"} altText={"instagram logo"} link={"https://www.instagram.com/techatnyu/"}/>
-                    <SocialMediaIcon src={"../assets/facebook.svg"}  altText={"facebook logo"} link={"https://www.facebook.com/TechatNYU/"} />
-                    <SocialMediaIcon src={"../assets/twitter.svg"}   altText={"twitter logo"} link={"https://twitter.com/techatnyu?lang=en"}  />
-                    <SocialMediaIcon src={"../assets/youtube.svg"}   altText={"youtube logo"}  link={"https://www.youtube.com/channel/UCfnrLW1YMab6CDElGKw2aGQ"} />
+                    <SocialMediaIcon src={"../assets/socials/instagram.svg"} altText={"instagram logo"} link={"https://www.instagram.com/techatnyu/"}/>
+                    <SocialMediaIcon src={"../assets/socials/facebook.svg"}  altText={"facebook logo"} link={"https://www.facebook.com/TechatNYU/"} />
+                    <SocialMediaIcon src={"../assets/socials/twitter.svg"}   altText={"twitter logo"} link={"https://twitter.com/techatnyu?lang=en"}  />
+                    <SocialMediaIcon src={"../assets/socials/youtube.svg"}   altText={"youtube logo"}  link={"https://www.youtube.com/channel/UCfnrLW1YMab6CDElGKw2aGQ"} />
                 </Row>
             </Col>
             <Col sm>

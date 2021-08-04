@@ -1,6 +1,7 @@
 import '../styles/globals.scss'
 import '../styles/index.scss'
 import '../styles/button.scss'
+import '../styles/techtreks.scss'
 
 import type { AppProps } from 'next/app'
 import Head from "next/head";
@@ -23,12 +24,14 @@ function MyApp({ Component, pageProps }: AppProps) {
     <body>
     <div className="logo center">
       <a href="/">
-        <img src = "../assets/logo-3x.png"/>
+        <img src = "../assets/logo.png"/>
       </a>
     </div>
     <NavBar/>
     <Component {...pageProps} />
-    <Footer/>
+    <div id="contact">
+      <Footer/>
+    </div>
     </body>
 
   </>);

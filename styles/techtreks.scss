@@ -1,0 +1,50 @@
+$bootstrap-collapse: 991px;
+$bootstrap-inward: 768px;
+
+$offwhite: #F9F9F7;
+
+.techtreks {
+    &__header {
+        img, p {
+            width: 50%;
+            @media (max-width:$bootstrap-collapse) {
+                width: 100%;
+            }
+        }
+        img {
+            padding-top: 10%;
+            padding-bottom: 5%;
+        }
+    }
+
+    &__info {
+        padding-top: 5%;
+
+        .row {
+            @media (max-width:$bootstrap-collapse) {
+                flex-direction: column;
+            }
+        }
+
+        .col {
+            @media (max-width:$bootstrap-collapse) {
+                padding-top: 3%;
+                padding-bottom: 3%;
+            } 
+        }
+
+    }
+
+    &__companies {
+        h2 {
+            color: #000;
+        }
+
+        .container {
+            padding-top: 20px;
+            margin-bottom: 5px;
+        }
+
+        background-color: $offwhite;
+    }
+}
