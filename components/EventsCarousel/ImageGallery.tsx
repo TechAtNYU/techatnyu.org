@@ -27,7 +27,6 @@ const ImageGallery = ()=>{
         <Container style={{
             width:"90%",
             textAlign:"start",
-            marginLeft: "10%",
 
         }}>
             <AliceCarousel

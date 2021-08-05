@@ -43,6 +43,28 @@ export default function techtreks() {
             <div className="techtreks__companies">
                 <div className="container">
                     <h2>Places we've visited:</h2>
+                    <div className="comp-imgs">
+                        <Row>
+                            <Col>
+                            <img className="md-img" src="../assets/companies/stackoverflow.png"/>
+                            </Col>
+                            <Col>
+                            <img className="md-img" src="../assets/companies/giphy.png"/>
+                            </Col>
+                            <Col>
+                            <img className="sm-img" src="../assets/companies/facebook.png"/>
+                            </Col>
+                            <Col>
+                                <img className="sm-img" src="../assets/companies/twitter.png"/>
+                            </Col>
+                            <Col>
+                                <img className="md-img" src="../assets/companies/seatgeek.png"/>
+                            </Col>
+                            <Col>
+                                <img className="sm-img" src="../assets/companies/ww.png"/>
+                            </Col>
+                        </Row>
+                    </div>
                 </div>
             </div>
         </div>
