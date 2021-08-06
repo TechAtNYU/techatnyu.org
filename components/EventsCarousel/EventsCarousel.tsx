@@ -1,29 +1,35 @@
-import React from "react";
-import {Col, Container} from "react-bootstrap";
-import ImageGallery from "./ImageGallery";
+import React from 'react';
+import AliceCarousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
+
+const responsive = {
+    0: { items: 1 },
+    768: { items: 2 },
+    1250: { items: 3 },
+};
+
+const items = [
+    <div><img className="carousel-img" src="/assets/gallery/events/event_1.png"/></div>,
+    <div><img className="carousel-img" src="/assets/gallery/events/event_2.png"/></div>,
+    <div><img className="carousel-img" src="/assets/gallery/events/event_3.png"/></div>,
+    <div><img className="carousel-img" src="/assets/gallery/events/event_4.png"/></div>,
+    <div><img className="carousel-img" src="/assets/gallery/events/event_5.png"/></div>,
+];
 
 const EventsCarousel = () => {
+    return <div className="container">
+        <AliceCarousel
+            mouseTracking
+            infinite
+            disableButtonsControls
+            disableDotsControls
 
-    return <Container
-        style = {{
-            backgroundColor: "transparent",
-            color:"white",
-            display: "inline-block",
-            width: "100%",
-            justifyContent: "center",
-            alignContent: "center",
-            paddingTop: "25px",
-            paddingBottom: "30px",
-            paddingLeft: "30px",
-        }}
-    >
-
-        <Col>
-            <div style={{marginBottom:"50px", zIndex:0}}>
-                <ImageGallery />
-            </div>
-        </Col>
-    </Container>
+            items={items}
+            responsive={responsive}
+            autoPlay={true}
+            autoPlayInterval={3000}
+        /> 
+    </div>
 }
 
 export default EventsCarousel;

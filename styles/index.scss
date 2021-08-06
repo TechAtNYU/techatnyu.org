@@ -176,9 +176,13 @@ $bootstrap-inward: 768px;
 
 #events {
     .main_carousel {
-        margin-top: -100px;
+        margin-bottom: 50px;
     }
     .find_events {
         margin-bottom: 50px;
+    }
+
+    @media (max-width:$bootstrap-collapse) {
+        padding-top:50px;
     }
 }

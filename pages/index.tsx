@@ -28,7 +28,7 @@ export default function Home() {
           <CohortCard/>
         </div>
 
-        <div id="events" className="container">
+        <div id="events" className="container center">
           <div style={{zIndex:1,position:"relative"}}><RotatingEventCircle /></div>
           <div className="main_carousel">
             <EventsCarousel/>

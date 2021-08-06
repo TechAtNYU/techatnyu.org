@@ -1,0 +1,9 @@
+$lightBlue:#C9D1DE;
+
+.carousel-img {
+    pointer-events: none;
+    width: 95%;
+
+    border: 5px $lightBlue solid;
+    border-radius: 8px;
+}

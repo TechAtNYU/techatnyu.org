@@ -3,6 +3,7 @@ import '../styles/index.scss'
 import '../styles/button.scss'
 import '../styles/techtreks.scss'
 import '../styles/footer.scss'
+import '../styles/carousel.scss'
 
 import type { AppProps } from 'next/app'
 import Head from "next/head";
