@@ -24,7 +24,7 @@ export default function Home() {
           <h1 className="heading">About</h1>
           <About/>
         </div>
-        <div id="cohort" className="container">
+        <div id="cohort">
           <CohortCard/>
         </div>
 
