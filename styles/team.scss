@@ -1,0 +1,22 @@
+.team-heading {
+    padding: 50px 0;
+}
+
+.team {
+    &__card {
+        text-align: center;
+        margin: 60px 0;
+    }
+
+    &__profile {
+        width: 250px;
+        border-radius: 8px;
+    }
+
+    &__name {
+        margin: 20px 0 5px;
+    }
+    &__title {
+        font-size: 18px;
+    }
+}
