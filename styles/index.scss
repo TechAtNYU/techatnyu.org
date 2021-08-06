@@ -203,3 +203,15 @@ $bootstrap-inward: 768px;
         padding-top:50px;
     }
 }
+
+.socials a {
+    display: inline-block;
+    margin: 8px;
+}
+
+.social-icons {
+    img {
+        width: 24px;
+        height: 24px;
+    }
+}
