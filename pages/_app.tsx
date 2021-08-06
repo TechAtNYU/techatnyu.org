@@ -2,6 +2,7 @@ import '../styles/globals.scss'
 import '../styles/index.scss'
 import '../styles/button.scss'
 import '../styles/techtreks.scss'
+import '../styles/footer.scss'
 
 import type { AppProps } from 'next/app'
 import Head from "next/head";
@@ -21,19 +22,16 @@ function MyApp({ Component, pageProps }: AppProps) {
         @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;1,400;1,500&display=swap');
       </style>
     </Head>
-    <body>
-    <div className="logo center">
-      <a href="/">
-        <img src = "../assets/logo.png"/>
-      </a>
-    </div>
-    <NavBar/>
-    <Component {...pageProps} />
-    <div id="contact">
-      <Footer/>
-    </div>
-    </body>
-
+      <body>
+        <div className="logo center">
+          <a href="/">
+            <img src = "../assets/logo.png"/>
+          </a>
+        </div>
+        <NavBar/>
+        <Component {...pageProps} />
+        <Footer/>
+      </body>
   </>);
 }
 export default MyApp
