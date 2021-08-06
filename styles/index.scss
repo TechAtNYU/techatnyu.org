@@ -177,6 +177,23 @@ $bootstrap-inward: 768px;
 #events {
     .main_carousel {
         margin-bottom: 50px;
+        padding-top: 100px;
+        position: relative;
+
+        svg {
+            position: absolute;
+            top: -40px;
+            left: -65px;
+
+            @media (max-width:$bootstrap-inward) {
+                top: 0px;
+                left: -20px;
+            }
+        }
+
+        @media (max-width:$bootstrap-collapse) {
+            padding-top: 50px;
+        }
     }
     .find_events {
         margin-bottom: 50px;

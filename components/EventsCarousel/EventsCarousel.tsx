@@ -17,8 +17,7 @@ const items = [
 ];
 
 const EventsCarousel = () => {
-    return <div className="container">
-        <AliceCarousel
+    return <AliceCarousel
             mouseTracking
             infinite
             disableButtonsControls
@@ -29,7 +28,6 @@ const EventsCarousel = () => {
             autoPlay={true}
             autoPlayInterval={3000}
         /> 
-    </div>
 }
 
 export default EventsCarousel;
