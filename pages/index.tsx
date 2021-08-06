@@ -29,9 +29,9 @@ export default function Home() {
         </div>
 
         <div id="events" className="container center">
-          <div style={{zIndex:1,position:"relative"}}><RotatingEventCircle /></div>
-          <div className="main_carousel">
+          <div className="main_carousel container">
             <EventsCarousel/>
+            <RotatingEventCircle/>
           </div>
           <div className="center find_events">
             <div style={{fontSize:"30px", marginBottom:"30px"}}>General Events bi-weekly!</div>
