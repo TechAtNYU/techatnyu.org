@@ -1,46 +1,29 @@
 import React  from "react";
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
-import {Container} from "react-bootstrap";
 
-const style = {
-    pointerEvents: "none"
-} as React.CSSProperties
 // const handleDragStart = (e ) => e.preventDefault();
 const items = [
-    <img src="/EventGallery/firstImg.png"    style = {style}    />,
-    <img src="/EventGallery/secondImg.png"   style = {style}   />,
-    <img src="/EventGallery/firstImg.png"    style = {style}   />,
-];
+    <img className="carousel-img" src="../assets/gallery/events/event_1.png"/>,
+  ];
 
-const responsive =    {
-    0: {
-        items: 1,
-    },
-    1024: {
-        items: 3
-    }
-}
+const responsive = {
+    0: { items: 1 },
+    768: { items: 2 },
+    1024: { items: 3 },
+};
 
 const ImageGallery = ()=>{
     return (
-        <Container style={{
-            width:"90%",
-            textAlign:"start",
+        <AliceCarousel
+            responsive={responsive}
+            mouseTracking
 
-        }}>
-            <AliceCarousel
-                responsive={responsive}
-                mouseTracking
+            infinite
+            disableButtonsControls
+            disableDotsControls
 
-                infinite
-                disableButtonsControls
-                disableDotsControls
-                paddingLeft  ={20}
-                paddingRight ={20}
-
-                items={items} />
-        </Container>
+            items={items} />
     );
 }
 
