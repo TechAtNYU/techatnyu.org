@@ -25,7 +25,7 @@ const NavBar = () => {
                 <NavDropdown.Item href="/techtreks">Tech Treks</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/#events">Events</Nav.Link>
-            <Nav.Link href="#contact">Contact Us</Nav.Link>
+            <Nav.Link href="/contact">Contact Us</Nav.Link>
         </Nav>
         </Navbar.Collapse>
     </Container>
