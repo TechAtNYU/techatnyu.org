@@ -1,7 +1,7 @@
 import '../styles/globals.scss'
 import '../styles/index.scss'
 import '../styles/button.scss'
-import '../styles/techtreks.scss'
+import '../styles/programs.scss'
 import '../styles/footer.scss'
 import '../styles/carousel.scss'
 import '../styles/team.scss'

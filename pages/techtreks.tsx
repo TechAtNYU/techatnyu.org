@@ -6,16 +6,16 @@ import EventsCarousel from "../components/EventsCarousel/EventsCarousel";
 
 export default function techtreks() {
     return (
-        <div className="techtreks">
-            <div className="container techtreks__header">
-                <img src = "../assets/headings/tech-treks.png"/>
+        <div className="program">
+            <div className="container program__header">
+                <img src = "../assets/headings/tech-treks.png" style={{paddingTop: "10%", paddingBottom:"5%"}}/>
                 <p>
                     Initially created to expose freshmen to the Tech industry, we realized there were Sophmores and Juniors just as new to the industry. 
                     We have recently opened up Tech Treks to anyone who is a beginner to code or curious about the tech industry, but not necessarily a STEM major.
                 </p>
                 <p>Check our social media pages when Tech Treks applications open! </p>
             </div>
-            <div className="container techtreks__info">
+            <div className="container program__info">
                 <Row>
                     <Col>
                         <h2>Are you...</h2>
