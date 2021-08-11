@@ -1,21 +1,16 @@
 $small: 420px;
-$medium: 800px;
 $bootstrap-collapse: 991px;
 $bootstrap-inward: 768px;
 
 $offwhite: #F9F9F7;
 
-.techtreks {
+.program {
     &__header {
         img, p {
             width: 50%;
             @media (max-width:$bootstrap-collapse) {
                 width: 100%;
             }
-        }
-        img {
-            padding-top: 10%;
-            padding-bottom: 5%;
         }
     }
 
@@ -32,9 +27,35 @@ $offwhite: #F9F9F7;
             @media (max-width:$bootstrap-collapse) {
                 padding-top: 3%;
                 padding-bottom: 3%;
-            } 
+            }
         }
+    }
+}
 
+.mentorship {
+    &__subheading {
+        font-size: 20px;
+        display: hidden;
+    }
+    div {
+        height: 180px;
+        @media (max-width:$bootstrap-collapse) {
+            height: auto;
+        }
+    }
+
+    .hide {
+        visibility: hidden;
+        @media (max-width:$bootstrap-collapse) {
+            visibility: visible;
+        }
+    }
+}
+
+.techtreks {
+
+    &__carousel {
+        padding: 100px 0;
     }
 
     &__companies {

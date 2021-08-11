@@ -24,14 +24,14 @@ export default function Home() {
           <h1 className="heading">About</h1>
           <About/>
         </div>
-        <div id="cohort" className="container">
+        <div id="cohort">
           <CohortCard/>
         </div>
 
-        <div id="events" className="container">
-          <div style={{zIndex:1,position:"relative"}}><RotatingEventCircle /></div>
-          <div className="main_carousel">
+        <div id="events" className="container center">
+          <div className="main_carousel container">
             <EventsCarousel/>
+            <RotatingEventCircle/>
           </div>
           <div className="center find_events">
             <div style={{fontSize:"30px", marginBottom:"30px"}}>General Events bi-weekly!</div>

@@ -1,0 +1,32 @@
+$offwhite: #F9F9F7;
+$black: #000;
+
+#contact {
+    background-color: $offwhite;
+    color: $black;
+    padding: 50px 0;
+    font-size: 18px;
+    margin:0;
+
+    .footer-item {
+        padding: 20px 0;
+        div {
+            margin-bottom: 15px;
+            font-weight: 500;
+        }
+    
+        a {
+            color: $black;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .socials {
+        justify-content: space-evenly;
+        width: 230px;
+        margin: 0 auto;
+    }
+}

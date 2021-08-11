@@ -1,6 +1,10 @@
 $offwhite: #F9F9F7;
+$lightBlue: #C9D1DE;
+
 $lightblack: #28252f;
 $mediumblack: #1d1b23;
+$darkblack:#111;
+$cardBlack: #17161C;
 
 $xsmall: 325px;
 $small: 420px;
@@ -139,11 +143,75 @@ $bootstrap-inward: 768px;
     }
 }
 
+#cohort {
+    background-color: $darkblack;
+    padding: 30px 0 50px;
+
+    .cohort-box {
+        background-color: $cardBlack;
+        border-radius: 8px;
+        margin: 30px auto 0;
+        width: 45%;
+        box-shadow: 7px 4px 20px $lightBlue;
+        color: $lightBlue;
+        padding: 25px 25px 50px;
+
+
+        @media (max-width:$small) {
+            width:90%;
+        }
+
+        @media (min-width:$small) and (max-width:$bootstrap-collapse) {
+            width:70%;
+        }
+    }
+
+    .row {
+        @media (max-width:$bootstrap-collapse) {
+            flex-direction: column;
+        }
+    }
+    
+}
+
 #events {
     .main_carousel {
-        margin-top: -100px;
+        margin-bottom: 50px;
+        padding-top: 100px;
+        position: relative;
+
+        svg {
+            position: absolute;
+            top: -40px;
+            left: -65px;
+
+            @media (max-width:$bootstrap-inward) {
+                top: 0px;
+                left: -20px;
+            }
+        }
+
+        @media (max-width:$bootstrap-collapse) {
+            padding-top: 50px;
+        }
     }
     .find_events {
         margin-bottom: 50px;
+    }
+
+    @media (max-width:$bootstrap-collapse) {
+        padding-top:50px;
+    }
+}
+
+.socials a {
+    display: inline-block;
+    margin: 8px;
+}
+
+.social-icons {
+    img {
+        width: 24px;
+        height: 24px;
     }
 }

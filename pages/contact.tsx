@@ -57,7 +57,7 @@ export default function ContactUs() {
 
     return (
         <div style ={contactusPageStyle} >
-            <h1 style={{margin: '30px 0px 30px 0px',}} className='font-weight-bold'> Contact Us!</h1>
+            <h1 style={{margin: '30px 0px 30px 0px',}} className='font-weight-bold'> Contact Us</h1>
             <h4 style={{marginBottom: '30px',}}> We would like to hear from you! Fill up this form below or email us at <a href='mailto:hello@techatnyu.org'>hello@techatnyu.org</a>.</h4>
             <Form className='contact-form' onSubmit={handleSubmit(()=>onSubmit)}>
                 <Form.Group controlId="formBasicEmail" className='formContents' style={{margin: '0px 0px 20px 0px'}}>

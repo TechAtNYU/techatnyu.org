@@ -1,22 +1,6 @@
 import React, {FunctionComponent} from "react";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
+import {Col, Row} from "react-bootstrap";
 import SocialMediaIcon from "./Footer/SocialMediaIcon";
-
-const imageStyle = {
-    borderRadius: "17.65px",
-    border: "5px solid #F5C7A3",
-    width: "354px",
-    height: "354px",
-    boxSizing: "border-box",
-} as React.CSSProperties;
-
-const linkStyle = {
-        width: "24px",
-        height: "24px",
-        margin: "0px",
-        padding: "0px"
-}
 
 const IndivTeamMemberCard: FunctionComponent<{
     imgSrc: string,
@@ -27,40 +11,15 @@ const IndivTeamMemberCard: FunctionComponent<{
     website: string,
     }>
     = props => {
-    return(<Col sm>
-        <img
-            src={props.imgSrc}
-            alt = {props.name + " Profile Picture"}
-            style={imageStyle}
-        />
-        <h4
-            style ={{
-                fontWeight: 500,
-                fontSize: "30px",
-                marginTop: "34px",
-                marginBottom:"8px"
-            }}
-
-        > {props.name}</h4>
-        <h5
-            style ={{
-                fontWeight: 500,
-                fontSize: "18px",
-                marginBottom:"24px"
-        }}
-
-        > {props.role}</h5>
-        <Row  style={{
-            justifyContent : "space-evenly",
-            width: "230px",
-            marginLeft: "auto",
-            marginRight:"auto",
-            marginBottom: "72px",
-        }}>
+    return(<Col className="team__card">
+        <img src={props.imgSrc} alt = {props.name + " Profile Picture"} className="team__profile"/>
+        <h4 className = "team__name"> {props.name}</h4>
+        <h5 className = "team__title"> {props.role}</h5>
+        <div className="socials">
             <SocialMediaIcon altText={props.name + " LinkedIn"} src={"../assets/socials/Linkedin.svg"} link={props.linkedin}/>
             <SocialMediaIcon altText={props.name + " Github"} src={"../assets/socials/Github.svg"} link={props.github}/>
             <SocialMediaIcon altText={props.name + " Personal Site"} src={"../assets/socials/Globe.svg"} link={props.website}/>
-        </Row>
+        </div>
     </Col>)
 }
 
