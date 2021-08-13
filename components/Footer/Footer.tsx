@@ -22,7 +22,7 @@ const Footer = () =>{
 
             <Col sm className="footer-item">
                 <div>Join The Community</div>
-                <a href="#">Sign Up</a>
+                <a href="https://mailchi.mp/7b624ef8b8ad/techatnyu">Sign Up</a>
             </Col>
         </Row>
     );

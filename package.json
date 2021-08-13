@@ -9,11 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "bootstrap": "^5.0.2",
     "install": "^0.13.0",
     "next": "11.0.1",
     "node-sass": "4.14.1",
     "npm": "^7.20.5",
+    "querystring": "^0.2.1",
     "react": "17.0.2",
     "react-alice-carousel": "^2.5.1",
     "react-bootstrap": "^2.0.0-beta.4",
