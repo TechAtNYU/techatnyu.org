@@ -4,6 +4,8 @@ import {Col, FloatingLabel, Row} from "react-bootstrap";
 import {Form,Button} from 'react-bootstrap';
 import { useForm } from "react-hook-form";
 import querystring from 'querystring';
+import Router from "next/router";
+
 const submitFeedbackForm =
     async (
         name: string,
@@ -42,7 +44,11 @@ export default function ContactUs() {
     const { register, handleSubmit } = useForm();
     const onSubmit = async (data: { [x:string]: string }) => {
         const status = await submitFeedbackForm(data.name,data.email, data.subject, data.role, data.message);
-        alert(status);
+        if (!status)
+            alert("There seems to be an error submitting your message. Please try again!");
+        else
+            await Router.push('/contactsuccess');
+
     };
 
     return (
