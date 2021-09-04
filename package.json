@@ -5,12 +5,14 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "axios": "^0.21.1",
     "bootstrap": "^5.0.2",
+    "gh-pages": "^3.2.3",
     "install": "^0.13.0",
     "next": "11.0.1",
     "node-sass": "4.14.1",
@@ -23,9 +25,9 @@
     "react-hook-form": "^7.12.2"
   },
   "devDependencies": {
-    "@types/react": "17.0.14",
+    "@types/react": "^17.0.14",
     "eslint": "7.30.0",
     "eslint-config-next": "11.0.1",
-    "typescript": "4.3.5"
+    "typescript": "^4.4.2"
   }
 }
