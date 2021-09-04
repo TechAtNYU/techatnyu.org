@@ -12,7 +12,7 @@ export default function Mentorship() {
                     an informal chat with tech@nyu alumni and seniors at NYU to receive guidance about applying for a job, 
                     prepping for recruting, finding out what start up world is like and the more.
                 </p>
-                <GeneralButton name={"Access the database"}/>
+                <GeneralButton name={"Mentorship database coming soon"}/>
             </div>
             <div className="container program__info" style={{paddingBottom:"10%"}}>
                 <Row>

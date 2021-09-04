@@ -6,7 +6,7 @@ const SocialMediaIcon: FunctionComponent<{
     link: string
     }> = props => {
     return (
-        <a href={props.link} className="social-icons">
+        <a href={props.link} className="social-icons" target="_blank">
             <img src={props.src} alt = {props.altText}/>
         </a>
    );
