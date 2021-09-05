@@ -23,7 +23,7 @@ const CohortCard = () =>{
                     <CohortIndivBox
                         title={"Tech Treks"}
                         description={"a tight-knit cohort for students\n unfamiliar with the tech industry. "}
-                        iconSrc={"/assets/index-icons/techtreks.svg"}
+                        iconSrc={"/assets/index-icons/Techtreks.svg"}
                         iconAlt={"Techtreks icon"}
                         btnHref={"/techtreks"}
                     />
