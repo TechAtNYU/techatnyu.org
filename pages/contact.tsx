@@ -3,8 +3,9 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import {Col, FloatingLabel, Row} from "react-bootstrap";
 import {Form,Button} from 'react-bootstrap';
 import { useForm } from "react-hook-form";
-import axios from 'axios';
 import querystring from 'querystring';
+import Router from "next/router";
+
 const submitFeedbackForm =
     async (
         name: string,
@@ -12,8 +13,7 @@ const submitFeedbackForm =
         subject: string,
         role: string,
         message: string) => {
-            const link = "https://docs.google.com/forms/d/e/1FAIpQLSfkETyG8-Wdvh-sMsOR76cJxgzJtQFuPDMQ6o5-b3l4exiYhA/formResponse";
-            const body= {
+                 const body= {
                 "entry.1527123451": name,
                 "entry.411955149": email,
                 "entry.1640709833": subject,
@@ -26,13 +26,12 @@ const submitFeedbackForm =
             };
             try {
                 const response =
-                    await fetch(link,
+                    await fetch('/api/contact',
                         {body:  querystring.stringify(body),
                             headers: headers,
                             method: "POST"
 
                         });
-                    // await axios.post(link, querystring.stringify(body), {headers:headers});
                 return response.status === 200;
             } catch (e) {
                 console.error(e);
@@ -45,31 +44,35 @@ export default function ContactUs() {
     const { register, handleSubmit } = useForm();
     const onSubmit = async (data: { [x:string]: string }) => {
         const status = await submitFeedbackForm(data.name,data.email, data.subject, data.role, data.message);
-        alert(status);
+        if (!status)
+            alert("There seems to be an error submitting your message. Please try again!");
+        else
+            await Router.push('/contactsuccess');
+
     };
 
     return (
         <div className="container contact_form">
             <h1>Get In Touch</h1>
-            <form onSubmit={handleSubmit(onSubmit)}>
+            <Form onSubmit={handleSubmit(onSubmit)}>
                 <Row className="g-2 contact_item">
                     <Col md>
                         <FloatingLabel controlId="floatingInputGrid" label="Name">
-                            <Form.Control type="text" placeholder="John Doe" {...register("name")}/>
+                            <Form.Control type="text" placeholder="John Doe" {...register("name")} required/>
                         </FloatingLabel>
                     </Col>
                     <Col md>
                         <FloatingLabel controlId="floatingInputGrid" label="Email address">
-                            <Form.Control type="email" placeholder="name@example.com"  {...register("email")} />
+                            <Form.Control type="email" placeholder="name@example.com"  {...register("email")} required />
                         </FloatingLabel>
                     </Col>
                 </Row>
 
                 <Row className="g-2 contact_item">
                     <Col md>
-                        <FloatingLabel controlId="floatingSelectGrid" label="Role">
-                            <Form.Select aria-label="Floating label select example" {...register("role")} >
-                                <option>Open this select menu</option>
+                        <FloatingLabel controlId="floatingSelectGrid" label="I am a ...">
+                            <Form.Select aria-label="Floating label select example" {...register("role")} required>
+                                <option>Choose an option</option>
                                 <option value="Prospective Student">Prospective Student</option>
                                 <option value="Current Student">Current Student</option>
                                 <option value="Alumni">Alumni</option>
@@ -80,14 +83,14 @@ export default function ContactUs() {
                     </Col>
                     <Col md>
                         <FloatingLabel controlId="floatingInputGrid" label="Message Subject">
-                            <Form.Control type="text" placeholder="Message Subject"  {...register("subject")} />
+                            <Form.Control type="text" placeholder="Message Subject"  {...register("subject")} required/>
                         </FloatingLabel>
                     </Col>
                 </Row>
 
                 <Row className="g-2 contact_item">
                     <FloatingLabel controlId="form-msg" label="Message" className="contact-item_form">
-                        <Form.Control as="textarea" placeholder="Leave a Message here" {...register("message")} />
+                        <Form.Control as="textarea" placeholder="Leave a Message here" {...register("message")} required />
                     </FloatingLabel>
                 </Row>
                 <div className="center">
@@ -95,8 +98,7 @@ export default function ContactUs() {
                         Submit
                     </Button>
                 </div>
-            </form>
-
+            </Form>
         </div>
     )
 }
