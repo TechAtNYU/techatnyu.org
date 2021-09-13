@@ -14,7 +14,7 @@ export default function ContactUsSuccess() {
             </div>
             <div   >
                 <Button
-                    variant='success'
+                    variant='secondary'
                     size='lg'
                     href="/"
                 >
