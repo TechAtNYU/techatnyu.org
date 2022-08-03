@@ -10,9 +10,9 @@ export default function Mentorship() {
                 <img src = "../assets/headings/mentorship.png"  style={{padding: "5% 5% 5% 0"}}/>
                 <p style={{marginBottom:"30px"}}>
                     an informal chat with tech@nyu alumni and seniors at NYU to receive guidance about applying for a job, 
-                    prepping for recruting, finding out what start up world is like and the more.
+                    prepping for recruiting, finding out what start up world is like and the more.
                 </p>
-                <GeneralButton name={"Mentorship database coming soon"}/>
+                <GeneralButton name={"More details coming soon"}/>
             </div>
             <div className="container program__info" style={{paddingBottom:"10%"}}>
                 <Row>

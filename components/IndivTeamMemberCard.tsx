@@ -9,6 +9,7 @@ const IndivTeamMemberCard: FunctionComponent<{
     linkedin?: string,
     github?: string,
     website?: string,
+    instagram?: string,
     }>
     = props => {
         return(<Col className="team__card">
@@ -38,6 +39,14 @@ const IndivTeamMemberCard: FunctionComponent<{
                     <SocialMediaIcon altText={props.name + " Personal Site"} src={"../assets/socials/Globe.svg"} link={props.website}/>
                     )
                 }
+                })()}
+
+                {(() => {
+                    if (props.instagram) {
+                        return (
+                            <SocialMediaIcon altText={props.name + " Instagram"} src={"../assets/socials/instagram-white.svg"} link={props.instagram}/>
+                        )
+                    }
                 })()}
             </div>
         </Col>)
