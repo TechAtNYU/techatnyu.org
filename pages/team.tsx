@@ -13,7 +13,7 @@ export default function Team() {
                 <IndivTeamMemberCard imgSrc={"../assets/team-photos/juliana.png"} name={"Juliana Regen"} role={"Marketing Lead"} linkedin={"https://www.linkedin.com/in/juliana-regen-086b14187/"} instagram={"https://www.instagram.com/ju.regen/"} />
                 <IndivTeamMemberCard imgSrc={"../assets/team-photos/ozioma.png"} name={"Ozioma Chukwukeme"} role={"Content Lead"} linkedin={"https://www.linkedin.com/in/oziomarc/"}/>
                 <IndivTeamMemberCard imgSrc={"../assets/team-photos/mega.jpg"} name={"Mega Olonbayar"} role={"Marketing/Content Lead"} linkedin={"https://www.linkedin.com/in/myagmarsuren-olonbayar-08773a22a/"}/>
-                <IndivTeamMemberCard imgSrc={"../assets/team-photos/jacob.jpeg"} name={"Joshua Le"} role={"Mentorship Lead"} linkedin={"https://www.linkedin.com/in/joshua-d-le/"} instagram={"https://www.instagram.com/josh__le/"} website={"https://www.joshuale.com"}/>
+                <IndivTeamMemberCard imgSrc={"../assets/team-photos/JoshuaLe.jpg"} name={"Joshua Le"} role={"Mentorship Lead"} linkedin={"https://www.linkedin.com/in/joshua-d-le/"} instagram={"https://www.instagram.com/josh__le/"} website={"https://www.joshuale.com"}/>
                 <IndivTeamMemberCard imgSrc={"../assets/team-photos/tina.jpeg"} name={"Tina Ge"} role={"Tech Treks Lead"} linkedin={"https://www.linkedin.com/in/getina/"}/>
                 <IndivTeamMemberCard imgSrc={"../assets/team-photos/EmilyWang.jpg"} name={"Emily Wang"} role={"Tech Treks Lead"} linkedin={"https://www.linkedin.com/in/emily-wang-83478b21a"}/>
                 <IndivTeamMemberCard imgSrc={"../assets/team-photos/lena.jpeg"} name={"Lena Lin"} role={"Tech Treks Lead"} linkedin={"https://www.linkedin.com/in/linlena/"}/>
