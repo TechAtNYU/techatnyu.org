@@ -35,7 +35,7 @@ export default function Home() {
           </div>
           <div className="center find_events">
             <div style={{fontSize:"30px", marginBottom:"30px"}}>General Events bi-weekly!</div>
-            <GeneralButton name={"Find an Event"} href={"https://www.facebook.com/TechatNYU/events/"}/>
+            <GeneralButton name={"Find an Event"} href={"https://engage.nyu.edu/organization/tech-at-nyu-all-university/events"}/>
           </div>
         </div>
 
