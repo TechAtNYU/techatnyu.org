@@ -74,7 +74,7 @@ export default function techtreks() {
                     </div>
                 </div>
                 <div className="container2">
-                    <h2>Fall 2023 Collaborations:</h2>
+                    <h2>    Fall 2023 Collaborations:</h2>
                     <div className="comp-imgs">
                         <Row>
                             <Col>
