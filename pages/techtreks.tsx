@@ -56,7 +56,7 @@ export default function techtreks() {
                             <img className="md-img" src="../assets/companies/stackoverflow.png"/>
                             </Col>
                             <Col>
-                            <img className="md-img" src="../assets/companies/giphy.png"/>
+                            <img className="md-img" src="../assets/companies/reddit.png"/>
                             </Col>
                             <Col>
                             <img className="sm-img" src="../assets/companies/facebook.png"/>
@@ -68,7 +68,35 @@ export default function techtreks() {
                                 <img className="md-img" src="../assets/companies/seatgeek.png"/>
                             </Col>
                             <Col>
-                                <img className="sm-img" src="../assets/companies/ww.png"/>
+                                <img className="sm-img" src="../assets/companies/boa.png"/>
+                            </Col>
+                        </Row>
+                    </div>
+                </div>
+                <div className="container2">
+                    <h2>Fall 2023 Collaborations:</h2>
+                    <div className="comp-imgs">
+                        <Row>
+                            <Col>
+                            <img className="md-img" src="../assets/companies/amazon.png"/>
+                            </Col>
+                            <Col>
+                            <img className="md-img" src="../assets/companies/uber.png"/>
+                            </Col>
+                            <Col>
+                            <img className="sm-img" src="../assets/companies/goldman sachs.png"/>
+                            </Col>
+                            <Col>
+                                <img className="sm-img" src="../assets/companies/linkedin.png"/>
+                            </Col>
+                            <Col>
+                                <img className="md-img" src="../assets/companies/riot.png"/>
+                            </Col>
+                            <Col>
+                                <img className="sm-img" src="../assets/companies/blizzard.png"/>
+                            </Col>
+                            <Col>
+                                <img className="sm-img" src="../assets/companies/soft services.png"/>
                             </Col>
                         </Row>
                     </div>
