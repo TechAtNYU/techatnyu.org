@@ -90,13 +90,13 @@ export default function techtreks() {
                                 <img className="sm-img" src="../assets/companies/linkedin.png"/>
                             </Col>
                             <Col>
-                                <img className="md-img" src="../assets/companies/riot.png"/>
+                                <img className="md-img" src="../assets/companies/riot games.png"/>
                             </Col>
                             <Col>
                                 <img className="sm-img" src="../assets/companies/blizzard.png"/>
                             </Col>
                             <Col>
-                                <img className="sm-img" src="../assets/companies/soft services.png"/>
+                                <img className="sm-img" src="../assets/companies/soft_services.png"/>
                             </Col>
                         </Row>
                     </div>
