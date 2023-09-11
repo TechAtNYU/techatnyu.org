@@ -10,29 +10,36 @@ export default function techtreks() {
             <div className="container program__header">
                 <img src = "../assets/headings/tech-treks.png" style={{paddingTop: "10%", paddingBottom:"5%"}}/>
                 <p>
-                    Initially created to expose freshmen to the Tech industry, we realized there were Sophmores and Juniors just as new to the industry. 
-                    We have recently opened up Tech Treks to anyone who is a beginner to code or curious about the tech industry, but not necessarily a STEM major.
+                Initially created to expose freshmen to the tech industry, we realized there were sophomores and juniors just as new to the industry. Tech Treks now has two participant types: members and tutors! 
                 </p>
-                <p>Check our social media pages when Tech Treks applications open! </p>
+                <p><b>Members:</b> You will be a part of a 12-15 person semesterly cohort that meets every week on Tuesdays and Fridays. You will meet other students who are beginning their journeys in tech, connect with industry professionals, learn from workshops, and add fun software projects to your portfolio!</p>
+                <p><b>Tutors:</b> You will aid the members in building their projects by offering your expertise on Tuesdays, with optional additional office hours. In return, you will get all the perks that regular members get! </p>
+                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSePMGYdhL2Hg9U_N3pBPm212ogTS3J6zRLO4Kfo-z3ol5lx5Q/viewform?usp=sf_link">Apply for Tutor</a> by September 15th, 2023!</p>
+                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeI8XTdOMDSw5INLb-hrfPbgYm_ozk9HBJ_JIsxZe-_HnaK0A/viewform">Apply for Tutor</a> by September 25th, 2023!</p>
+
             </div>
             <div className="container program__info">
                 <Row>
                     <Col>
                         <h2>Are you...</h2>
                         <ul>
-                            <li>a freshman, sophmore, junior curious about the tech industry?</li>
-                            <li>a person that has dabbled with code but not sure where to start?</li>
+                            <li>a beginner to code—regardless of grade or major—curious about the tech industry?</li>
+                            <li>a person that has dabbled with code or design but not sure where to start?</li>
                             <li>trying to figure out what career paths there are in tech?</li>
+                        </ul>
+                        <p><b>OR</b></p>
+                        <ul>
+                            <li>someone with experience in tech already and willing to guide others along in their journey?</li>
                         </ul>
                     </Col>
                     <Col>
                         <h2>What you'll get out of Tech Treks</h2>
                         <ul>
-                            <li>new friends!</li>
+                            <li>new friends and networking experience!</li>
                             <li>an intro to design + code!</li>
-                            <li>a peep of tech culture!</li>
-                            <li>visit offices in New York</li>
-                            <li>snacks on snacks</li>
+                            <li>office tours and speaker panels!</li>
+                            <li>resume/portfolio value!</li>
+                            <li>free food!</li>
                         </ul>
                     </Col>
                 </Row>
