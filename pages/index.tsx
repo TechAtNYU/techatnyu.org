@@ -17,7 +17,7 @@ export default function Home() {
           <div className="tagline">
             <p>Tech@NYU is a space for artists, makers and hackers to build stuff together, learn new skills, and explore opportunities in tech. </p>
           </div>
-          <OutlineButton title="Join the Club" href="https://mailchi.mp/7b624ef8b8ad/techatnyu"/>
+          <OutlineButton title="Join the Club" href="https://stats.sender.net/forms/bD2Zye/view"/>
         </div>
 
         <div id="about" className="container">
