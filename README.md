@@ -18,6 +18,14 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
+### Potential Issues When Running Dev Server
+
+- `digital envelop routines` -> (potential resolve) downgrade node version
+    1. `npm install -g n`
+    2. `sudo n 16.13.1`
+    3. Resatrt terminal, run `npm run dev`
+- `sh: command node not found` -> run `npm install`
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
