@@ -1,0 +1,22 @@
+.contributorsRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px; // space between items
+  padding: 10px; // padding around the items
+  margin-bottom: 65px;
+}
+  
+.contributor {
+  flex: 0 1 auto; // wrapping and flexible item width
+  font-size: 1.55rem;
+  a {
+    color: inherit;
+    text-decoration: underline solid transparent;
+    transition: text-decoration 0.5s ease;
+  }
+  
+  a:hover {
+    text-decoration: underline solid Currentcolor;
+  }
+}

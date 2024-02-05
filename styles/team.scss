@@ -1,17 +1,17 @@
 .team-heading {
-    padding: 50px 0;
+    padding: 35px 0;
 }
 
 .team {
     &__card {
         text-align: center;
-        margin: 60px 0;
+        margin: 40px 0;
     }
 
     &__profile {
-        width: 250px;
-        height: 250px;
-        border-radius: 8px;
+        width: 225px;
+        height: 225px;
+        border-radius: 15px;
     }
 
     &__name {
@@ -19,5 +19,25 @@
     }
     &__title {
         font-size: 18px;
+    }
+}
+
+.alumni {
+    &__card {
+        text-align: center;
+        margin: 25px 0;
+    }
+
+    &__profile {
+        width: 170px;
+        height: 170px;
+        border-radius: 15px;
+    }
+
+    &__name {
+        margin: 16px 0 4px;
+    }
+    &__title {
+        font-size: 13px;
     }
 }
