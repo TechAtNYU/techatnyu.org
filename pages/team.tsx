@@ -25,7 +25,7 @@ export default function Team() {
                 <Row>
                 <IndivTeamMemberCard imgSrc={"../assets/team-photos/youli.png"} name={"Yulduz Furkhati"} role={"Social Media Lead"} linkedin={"www.linkedin.com/in/yulduz-furkhati"} instagram="https://www.instagram.com/yulduzfurkhatii/"/>
                 <IndivTeamMemberCard imgSrc={"../assets/team-photos/delaney.png"} name={"Delaney Wong"} role={"Content/Graphic Designer"} linkedin={"https://www.linkedin.com/in/delaney-wong/"} website="https://delaneywong.com/" instagram="https://www.instagram.com/delaneywongg/"/>
-                <IndivTeamMemberCard imgSrc={"../assets/team-photos/mega.jpg"} name={"Mega Olonbayar"} role={"Events Commmittee"} linkedin={"https://www.linkedin.com/in/myagmarsuren-olonbayar-08773a22a/"}/>
+                <IndivTeamMemberCard imgSrc={"../assets/team-photos/mega.jpg"} name={"Mega Olonbayar"} role={"Events Commmittee"} linkedin={"https://www.linkedin.com/in/myagmarsuren-olonbayar-08773a22a/"} website="https://myagmarsuren.com/"/>
                 </Row>
             <h2 className="team-heading">Tech Treks</h2>
                 <Row>
@@ -65,6 +65,7 @@ export default function Team() {
                 <ContributorsRow contributors={[
                     {name: "Sanjay Chunduru", url: "https://in.linkedin.com/in/sanjay-chunduru-71571a219"},
                     {name: "Sean Lai", url: "https://www.linkedin.com/in/sean-sh-lai/"},
+                    {name: "Parul Veda", url: "https://linkedin.com/in/parul-veda/"},
                 ]}/>
         </div>
     )
