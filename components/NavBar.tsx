@@ -23,6 +23,7 @@ const NavBar = () => {
             <NavDropdown title="Programs" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/mentorship">Mentorship</NavDropdown.Item>
                 <NavDropdown.Item href="/techtreks">Tech Treks</NavDropdown.Item>
+                <NavDropdown.Item href="/startupweek">Startup Week Committee</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/#events">Events</Nav.Link>
             <Nav.Link href="/contact">Contact Us</Nav.Link>

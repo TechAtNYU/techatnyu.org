@@ -1,6 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is the Tech@NYU 2022 Running Website:
+
+
 
 ## Getting Started
+
+### USE NODE VERSION MANAGER
+
+## Use ChatGPt to help you install Node Version 14.17.0 
+
+This codebase will not run on Node 16 due to decaprecated libraries.
+
 
 First, run the development server:
 
