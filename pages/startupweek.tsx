@@ -17,7 +17,7 @@ export default function startupWeek() {
                 <p>
                 Are you interested in startups? Do you want to learn more about them and meet startup founders? Join the Tech@NYU Startup Week Committee! Help us plan, organize, and run a week of startup events for fellow students, sharing your love of startups with the wider NYU community. 
                 </p>
-                <p><a href="https://nyu.qualtrics.com/jfe/form/SV_3JkfucDw0VnlQRo">Apply to the committee</a> by <b>September 17th, 11:59PM !</b></p>
+                <p><a href="https://nyu.qualtrics.com/jfe/form/SV_3JkfucDw0VnlQRo">Apply to the committee</a> by <b>September 20th, 11:59PM !</b></p>
 
             </div>
             <div className="container program__info">
