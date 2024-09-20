@@ -18,7 +18,7 @@ const CohortIndivBox: FunctionComponent<{
             <img src={props.iconSrc} alt={props.iconAlt} height={25}/>
             <div style={{fontSize:"18px", fontWeight:"500" as FontWeight, marginTop :"15px"}}>{props.title}</div>
             <div style={{fontSize:"18px", marginTop :"25px", marginBottom:"25px", height: "100px"}}>{props.description}</div>
-            <GeneralButton name={"Read more"} href={props.btnHref}/>
+            <GeneralButton name={"Learn more"} href={props.btnHref}/>
         </Col>
     </div>);
 }

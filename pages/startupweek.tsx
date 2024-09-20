@@ -1,3 +1,4 @@
+'use client';
 import React from "react";
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { Row, Col } from "react-bootstrap";
@@ -15,9 +16,10 @@ export default function startupWeek() {
                     filter: "invert(100%) brightness(2)"
                 }} />
                 <p>
-                Are you interested in startups? Do you want to learn more about them and meet startup founders? Join the Tech@NYU Startup Week Committee! Help us plan, organize, and run a week of startup events for fellow students, sharing your love of startups with the wider NYU community. 
+                Are you interested in startups? Do you want to learn more about them and meet startup founders? Join the Tech@NYU Startup Week Committee! Help us plan, organize, and run a week of startup events for fellow students, sharing your love of startups with the wider NYU community. <a href="https://nyustartupweek.org">Look at our past events!</a>
                 </p>
-                <p><a href="https://nyu.qualtrics.com/jfe/form/SV_3JkfucDw0VnlQRo">Apply to the committee</a> by the very latest <b>September 19th, 11:59PM !</b></p>
+                <p><a href="https://nyu.qualtrics.com/jfe/form/SV_3JkfucDw0VnlQRo">Apply to the committee</a> with priority consideration by <b>September 19th, 11:59PM !</b></p>
+                <h3>Apps are rolling so get them in fast!</h3>
 
             </div>
             <div className="container program__info">

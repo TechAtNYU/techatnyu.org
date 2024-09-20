@@ -21,7 +21,7 @@ const RotatingEventCircle = () =>{
                 <textPath
                     xlinkHref="#textcircle"
                     className={styles.svgTextPath}
-                >Events Events Events Events Events Events</textPath>
+                >Pics @ Events!</textPath>
             </text>
         </svg>
 

@@ -27,6 +27,13 @@ const CohortCard = () =>{
                         iconAlt={"Techtreks icon"}
                         btnHref={"/techtreks"}
                     />
+                    <CohortIndivBox
+                        title={"Startup Week"}
+                        description={"dedicated year long committee \n connecting students with founders and the NYC startup ecosystem"}
+                        iconSrc={"/assets/index-icons/rocket_sw.png"}
+                        iconAlt={"Startup Week Icon"}
+                        btnHref={"/startupweek"}
+                    />
                 </Row>
             </Container>
         </Col>
