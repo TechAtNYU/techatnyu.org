@@ -17,7 +17,7 @@ export default function Team() {
             <h2 className="team-heading">Events</h2>
                 <Row>
                     <IndivTeamMemberCard imgSrc={"../assets/team-photos/katy.jpeg"} name={"Katy Lee"} role={"Events Lead"} linkedin={"https://www.linkedin.com/in/kathryn-anne-lee/"} website={"https://kathrynannelee.com/"} instagram={"https://www.instagram.com/kathrynannelee/"}/>
-                    <IndivTeamMemberCard imgSrc={"../assets/team-photos/KaitlynZou.jpg"} name={"Kaitlyn Zou"} role={"Events Coordinator"} linkedin={"www.linkedin.com/in/zou-kaitlyn"} website={"https://zoukaitlyn.cargo.site/"} instagram={"https://www.instagram.com/kaitlynzou/"}/>
+                    <IndivTeamMemberCard imgSrc={"../assets/team-photos/Kaitlyn_Zou.jpg"} name={"Kaitlyn Zou"} role={"Events Coordinator"} linkedin={"www.linkedin.com/in/zou-kaitlyn"} website={"https://zoukaitlyn.cargo.site/"} instagram={"https://www.instagram.com/kaitlynzou/"}/>
                     <IndivTeamMemberCard imgSrc={"../assets/team-photos/Lucy_Hartigan.jpeg"} name={"Lucy Hartigan"} role={"Events Coordinator"} linkedin={"https://www.linkedin.com/in/lucy-hartigan-13327b219"}/>
                     <IndivTeamMemberCard imgSrc={"../assets/team-photos/Liz_kim.jpeg"} name={"Liz Kim"} role={"Events Coordinator"} linkedin={"https://www.linkedin.com/in/yeonjuk/"}/>
                 </Row>
