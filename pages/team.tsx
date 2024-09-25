@@ -37,6 +37,7 @@ export default function Team() {
                 <Row>
                     <IndivTeamMemberCard imgSrc={"../assets/team-photos/sean.jpg"} name={"Sean Lai"} role={"Startup Week Co-Lead"} linkedin={"https://www.linkedin.com/in/sean-sh-lai/"} github={"https://github.com/sean-lai-sh"} website={"https://seanlai1.com"}/>
                     <IndivTeamMemberCard imgSrc={"../assets/team-photos/michael_s.png"} name={"Michael Shen"} role={"Startup Week Co-Lead"} linkedin={"https://www.linkedin.com/in/michashen/"} github={"https://github.com/mshen766"}/>
+                    <IndivTeamMemberCard imgSrc={"../assets/team-photos/peda.jpg"} name={"Parul Veda"} role={"Startup Week Co-Lead"} linkedin={"https://www.linkedin.com/in/parul-veda/"}/>
                 </Row>
             {/* <h2 className="team-heading">Dev Team</h2>
                 <Row>
@@ -48,7 +49,7 @@ export default function Team() {
                 </Row>
             <h2 className="team-heading">Mentorship</h2>
                 <Row>
-                    <p>stay tuned for the announcement...</p>
+                    <IndivTeamMemberCard imgSrc={"../assets/team-photos/ali.jpg"} name={"Aileen Li"} role={"Mentorship Co-lead"} linkedin={"https://www.linkedin.com/in/aileenli1/"}/>
                 </Row>
             <h2 className="team-heading">Eboard Alumni</h2>
                 <Row>
