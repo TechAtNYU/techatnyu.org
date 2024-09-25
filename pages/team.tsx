@@ -17,18 +17,21 @@ export default function Team() {
             <h2 className="team-heading">Events</h2>
                 <Row>
                     <IndivTeamMemberCard imgSrc={"../assets/team-photos/katy.jpeg"} name={"Katy Lee"} role={"Events Lead"} linkedin={"https://www.linkedin.com/in/kathryn-anne-lee/"} website={"https://kathrynannelee.com/"} instagram={"https://www.instagram.com/kathrynannelee/"}/>
-                    <IndivTeamMemberCard imgSrc={"../assets/team-photos/KaitlynZou.jpg"} name={"Kaitlyn Zou"} role={"Events Committee"} linkedin={"www.linkedin.com/in/zou-kaitlyn"} website={"https://zoukaitlyn.cargo.site/"} instagram={"https://www.instagram.com/kaitlynzou/"}/>
-                    {/*ADD THE OTHER PPL*/}
+                    <IndivTeamMemberCard imgSrc={"../assets/team-photos/KaitlynZou.jpg"} name={"Kaitlyn Zou"} role={"Events Coordinator"} linkedin={"www.linkedin.com/in/zou-kaitlyn"} website={"https://zoukaitlyn.cargo.site/"} instagram={"https://www.instagram.com/kaitlynzou/"}/>
+                    <IndivTeamMemberCard imgSrc={"../assets/team-photos/Lucy_Hartigan.jpeg"} name={"Lucy Hartigan"} role={"Events Coordinator"} linkedin={"https://www.linkedin.com/in/lucy-hartigan-13327b219"}/>
+                    <IndivTeamMemberCard imgSrc={"../assets/team-photos/Liz_kim.jpeg"} name={"Liz Kim"} role={"Events Coordinator"} linkedin={"https://www.linkedin.com/in/yeonjuk/"}/>
                 </Row>
             <h2 className="team-heading">Marketing</h2>
                 <Row>
                 <IndivTeamMemberCard imgSrc={"../assets/team-photos/youli.png"} name={"Yulduz Furkhati"} role={"Social Media Lead"} linkedin={"www.linkedin.com/in/yulduz-furkhati"} instagram="https://www.instagram.com/yulduzfurkhatii/"/>
-                <IndivTeamMemberCard imgSrc={"../assets/team-photos/mega.jpg"} name={"Mega Olonbayar"} role={"Events Commmittee"} linkedin={"https://www.linkedin.com/in/myagmarsuren-olonbayar-08773a22a/"} website="https://myagmarsuren.com/"/>
                 {/* Lauren Zhou TBA */}
+                <IndivTeamMemberCard imgSrc={"../assets/team-photos/temp.jpg"} name={"Lauren Zhou"} role={"Content & Marketing Lead"} linkedin={"https://www.linkedin.com/in/lauren-ling-zhou/"} instagram="https://www.instagram.com/lauren.lz/"/>
                 </Row>
             <h2 className="team-heading">Tech Treks</h2>
                 <Row>
-                    <IndivTeamMemberCard imgSrc={"../assets/team-photos/kyle.png"} name={"Kyle Park"} role={"Outreach"} linkedin={"https://www.linkedin.com/in/kylekangminpark/"} instagram="https://www.instagram.com/kpockyy/"/>
+                    <IndivTeamMemberCard imgSrc={"../assets/team-photos/kyle.png"} name={"Kyle Park"} role={"Tech Treks Lead"} linkedin={"https://www.linkedin.com/in/kylekangminpark/"} instagram="https://www.instagram.com/kpockyy/"/>
+                    <IndivTeamMemberCard imgSrc={"../assets/team-photos/Kevin_Dong.jpg"} name={"Kevin Dong"} role={"Tech Treks Co-Lead"} linkedin={"https://www.linkedin.com/in/kevinlindong/"}/>
+                    <IndivTeamMemberCard imgSrc={"../assets/team-photos/bryanko.jpg"} name={"Bryan Ko"} role={"Tech Treks Co-Lead"} linkedin={"https://www.linkedin.com/in/bryan-ko7/"} website={"https://bryanko.carrd.co/"}/>
                 </Row>
             <h2 className="team-heading">Startup Week</h2>
                 <Row>
