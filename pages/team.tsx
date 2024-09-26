@@ -25,7 +25,7 @@ export default function Team() {
                 <Row>
                 <IndivTeamMemberCard imgSrc={"../assets/team-photos/youli.png"} name={"Yulduz Furkhati"} role={"Social Media Lead"} linkedin={"www.linkedin.com/in/yulduz-furkhati"} instagram="https://www.instagram.com/yulduzfurkhatii/"/>
                 {/* Lauren Zhou TBA */}
-                <IndivTeamMemberCard imgSrc={"../assets/team-photos/temp.jpg"} name={"Lauren Zhou"} role={"Content & Marketing Lead"} linkedin={"https://www.linkedin.com/in/lauren-ling-zhou/"} instagram="https://www.instagram.com/lauren.lz/"/>
+                <IndivTeamMemberCard imgSrc={"../assets/team-photos/lauren.jpg"} name={"Lauren Zhou"} role={"Content & Marketing Lead"} linkedin={"https://www.linkedin.com/in/lauren-ling-zhou/"} instagram="https://www.instagram.com/lauren.lz/"/>
                 </Row>
             <h2 className="team-heading">Tech Treks</h2>
                 <Row>
