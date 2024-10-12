@@ -13,6 +13,7 @@ export default function Team() {
                 <Row>
                     <IndivTeamMemberCard imgSrc={"../assets/team-photos/indeera.png"} name={"Indeera Saha"} role={"Co President"} linkedin={"https://www.linkedin.com/in/indeerasaha/"} instagram="https://www.instagram.com/indeerasahahaha/" github="https://github.com/indeerasaha>"/>
                     <IndivTeamMemberCard imgSrc={"../assets/team-photos/lena.jpeg"} name={"Lena Lin"} role={"Co President"} linkedin={"https://www.linkedin.com/in/linlena/"}/>
+                    <IndivTeamMemberCard imgSrc={"../assets/team-photos/andrew_l.jpg"} name={"Andrew Lee"} role={"Secretary"} linkedin={"https://www.linkedin.com/in/andrewlee23708/"}/>
                 </Row>
             <h2 className="team-heading">Events</h2>
                 <Row>
@@ -50,6 +51,7 @@ export default function Team() {
             <h2 className="team-heading">Mentorship</h2>
                 <Row>
                     <IndivTeamMemberCard imgSrc={"../assets/team-photos/ali.jpg"} name={"Aileen Li"} role={"Mentorship Co-lead"} linkedin={"https://www.linkedin.com/in/aileenli1/"}/>
+                    <IndivTeamMemberCard imgSrc={"../assets/team-photos/ryan_k.jpg"} name={"Ryan Kawahara"} role={"Mentorship Co-lead"} linkedin={"https://www.linkedin.com/in/ryan-kawahara/"} instagram={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}/>
                 </Row>
             <h2 className="team-heading">Eboard Alumni</h2>
                 <Row>
