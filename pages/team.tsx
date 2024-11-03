@@ -34,11 +34,11 @@ export default function Team() {
                     <IndivTeamMemberCard imgSrc={"../assets/team-photos/Kevin_Dong.jpg"} name={"Kevin Dong"} role={"Tech Treks Co-Lead"} linkedin={"https://www.linkedin.com/in/kevinlindong/"}/>
                     <IndivTeamMemberCard imgSrc={"../assets/team-photos/bryanko.jpg"} name={"Bryan Ko"} role={"Tech Treks Co-Lead"} linkedin={"https://www.linkedin.com/in/bryan-ko7/"} website={"https://bryanko.carrd.co/"}/>
                 </Row>
-            <h2 className="team-heading">Startup Week</h2>
+            <h2 className="team-heading">Startup</h2>
                 <Row>
-                    <IndivTeamMemberCard imgSrc={"../assets/team-photos/sean.jpg"} name={"Sean Lai"} role={"Startup Week Co-Lead"} linkedin={"https://www.linkedin.com/in/sean-sh-lai/"} github={"https://github.com/sean-lai-sh"} website={"https://seanlai1.com"}/>
-                    <IndivTeamMemberCard imgSrc={"../assets/team-photos/michael_s.png"} name={"Michael Shen"} role={"Startup Week Co-Lead"} linkedin={"https://www.linkedin.com/in/michashen/"} github={"https://github.com/mshen766"}/>
-                    <IndivTeamMemberCard imgSrc={"../assets/team-photos/peda.jpg"} name={"Parul Veda"} role={"Startup Week Co-Lead"} linkedin={"https://www.linkedin.com/in/parul-veda/"}/>
+                    <IndivTeamMemberCard imgSrc={"../assets/team-photos/sean.jpg"} name={"Sean Lai"} role={"Startup Co-Lead"} linkedin={"https://www.linkedin.com/in/sean-sh-lai/"} github={"https://github.com/sean-lai-sh"} website={"https://seanlai1.com"}/>
+                    <IndivTeamMemberCard imgSrc={"../assets/team-photos/michael_s.png"} name={"Michael Shen"} role={"Startup Co-Lead"} linkedin={"https://www.linkedin.com/in/michashen/"} github={"https://github.com/mshen766"}/>
+                    <IndivTeamMemberCard imgSrc={"../assets/team-photos/peda.jpg"} name={"Parul Veda"} role={"Startup Co-Lead"} linkedin={"https://www.linkedin.com/in/parul-veda/"}/>
                 </Row>
             {/* <h2 className="team-heading">Dev Team</h2>
                 <Row>
