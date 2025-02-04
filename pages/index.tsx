@@ -21,7 +21,7 @@ export default function Home() {
         </div>
 
         <div id="about" className="container">
-          <h1 className="heading">About</h1>
+          <h1 className="heading">Home</h1>
           <About/>
         </div>
         <div id="cohort">
