@@ -11,8 +11,11 @@ export default function Mentorship() {
                 <p style={{marginBottom:"30px"}}>
                     an informal chat with tech@nyu alumni and seniors at NYU to receive guidance about applying for a job, 
                     prepping for recruiting, finding out what start up world is like and the more.
+
+                    <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfhuKY8laRH5tvysj1eaIEtIUeKJQ93cyvo7lZShn0vZfFacg/viewform">Apply to be a Mentee </a> by 11:59PM February 10th, 2025!</p>
+
                 </p>
-                <GeneralButton name={"More details coming soon"}/>
+
             </div>
             <div className="container program__info" style={{paddingBottom:"10%"}}>
                 <Row>
