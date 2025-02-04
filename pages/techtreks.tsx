@@ -15,7 +15,7 @@ export default function techtreks() {
                 <p><b>Members:</b> You will be a part of a 12-15 person semesterly cohort that meets every week on Tuesdays and Fridays. You will meet other students who are beginning their journeys in tech, connect with industry professionals, learn from workshops, and add fun software projects to your portfolio!</p>
                 <p><b>Tutors:</b> You will aid the members in building their projects by offering your expertise on Tuesdays, with optional additional office hours. In return, you will get all the perks that regular members get! </p>
                 {/* <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSePMGYdhL2Hg9U_N3pBPm212ogTS3J6zRLO4Kfo-z3ol5lx5Q/viewform?usp=sf_link">Apply for Tutor</a> by September 15th, 2023!</p> */}
-                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSexXWD_SiWgy6Hro5KNanjYg1TJvbkjSmj_u7LEm3KRsQxWrw/viewform">Apply to be a Member</a> by February 10th, 2025!</p>
+                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSexXWD_SiWgy6Hro5KNanjYg1TJvbkjSmj_u7LEm3KRsQxWrw/viewform">Apply to be a Member</a> by 11:59PM February 10th, 2025!</p>
 
             </div>
             <div className="container program__info">
