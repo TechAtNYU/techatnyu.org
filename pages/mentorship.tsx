@@ -8,11 +8,11 @@ export default function Mentorship() {
         <div className="program">
             <div className="container program__header">
                 <img src = "../assets/headings/mentorship.png"  style={{padding: "5% 5% 5% 0"}}/>
-                <p style={{marginBottom:"30px"}}>
-                    an informal chat with tech@nyu alumni and seniors at NYU to receive guidance about applying for a job, 
+                <p style={{marginBottom:"30px"}} className="w-full">
+                    An informal chat with tech@nyu alumni and seniors at NYU to receive guidance about applying for a job, 
                     prepping for recruiting, finding out what start up world is like and the more.
-
-                    <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfhuKY8laRH5tvysj1eaIEtIUeKJQ93cyvo7lZShn0vZfFacg/viewform">Apply to be a Mentee </a> by 11:59PM February 10th, 2025!</p>
+                    <br />
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeiZbXEqPTqNXHqf9-zm6NmUAhvVkoOi3OLX05yPCFHn-7WtQ/viewform">Apply to be a Mentee </a> by 11:59PM September 17th, 2025!
 
                 </p>
 

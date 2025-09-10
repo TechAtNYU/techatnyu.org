@@ -12,7 +12,7 @@ export default function Mentorship() {
                  Join a chance to create and collaborate on production-ready software
                   in a multi-team format similar to industry working with other experienced students over the course of a semester.
                   <br />
-                  <a href="https://forms.gle/VMnDoeWfXPRQzmFb6">Apply to be a member</a> by 11:59 @ Feb 10th, 2025!
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfxzF2pTkozafv5EvFrxXlE8zx1OgFsmEZqdQwkhdsKktQIhg/viewform">Apply to be a member</a> by 11:59PM September 17th, 2025!
                 </p>
                 {/* <GeneralButton name={"More details coming soon"}/> */}
             </div>

@@ -18,7 +18,7 @@ export default function startupWeek() {
                 <p>
                 Are you interested in startups? Do you want to learn more about them and meet startup founders? Join the Tech@NYU Startup Week Committee! Help us plan, organize, and run a week of startup events for fellow students, sharing your love of startups with the wider NYU community. <a href="https://nyustartupweek.org">Look at our past events!</a>
                 </p>
-                <p><a href="https://nyu.qualtrics.com/jfe/form/SV_3JkfucDw0VnlQRo">Apply to the committee</a> with priority consideration by <b>September 19th, 11:59PM !</b></p>
+                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeqMidTNrQGRCjkZCvKaK8z90sQJoRKG8a2PGSPvWKTPwkeAw/viewform">Apply to the committee</a> with priority consideration by <b> by 11:59PM September 17th, 2025!</b></p>
                 <h3>Apps are rolling so get them in fast!</h3>
 
             </div>
@@ -50,7 +50,7 @@ export default function startupWeek() {
             <div className="startupweek__companies">
                 <div className="container">
                     <div className="header_t">
-                    <h2>Previous Sponsors and Representatives</h2>
+                    <h2>Some of our previous sponsors and representatives</h2>
                     </div>
                     <div className="comp-imgs">
                         <Row>
@@ -64,13 +64,13 @@ export default function startupWeek() {
                             <img className="md-img" src="../assets/companies/Poppi.png"/>
                             </Col>
                             <Col>
-                                <img className="md-img" src="../assets/companies/Finmo.png"/>
+                                <img className="md-img" src="../assets/companies/figma_logo.png"/>
                             </Col>
                             <Col>
                                 <img className="md-img" src="../assets/companies/liquid_death.png"/>
                             </Col>
                             <Col>
-                                <img className="md-img" src="../assets/companies/OSKVI.png"/>
+                                <img className="md-img" src="../assets/companies/anthropic.png"/>
                             </Col>
                         </Row>
                     </div>

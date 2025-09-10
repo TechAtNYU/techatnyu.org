@@ -15,7 +15,7 @@ export default function Home() {
 
       <div className="container" style={{ backgroundColor: "white", padding: "15px", marginTop: "20px", borderRadius: "5px", boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)" }}>
         <p style={{ color: "black", textAlign: "center", margin: "0", fontSize: "18px", fontWeight: "bold" }}>
-          Applications for Spring 2025 Tech Treks, Mentorship, and Dev Team cohorts are open now! Apps close 11:59PM February 10th, 2025!
+          Applications for Fall 2025 Tech Treks, Mentorship, and Dev Team cohorts are open now! Apps close 11:59PM September 17th, 2025!
         </p>
       </div>
 
